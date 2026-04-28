@@ -1,0 +1,20 @@
+baseURL: "https://xxx.pages.dev"
+languageCode: zh-CN
+title: truth
+theme: PaperMod
+
+params:
+  author: 你的名字
+  description: "我的个人技术博客"
+  ShowReadingTime: true
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
+
+menu:
+  main:
+    - name: 首页
+      url: /
+      weight: 1
+    - name: 文章
+      url: /article/
+      weight: 2
