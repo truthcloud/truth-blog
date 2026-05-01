@@ -1,12 +1,11 @@
-# hugo.yaml - 完整多语言配置（含菜单翻译）
 baseURL: "https://truth-blog.pages.dev"
 languageCode: zh-CN
-title: truth
+title: truth-blog
 theme: PaperMod
 
 params:
-  author: 你的名字
-  description: "我的个人技术博客"
+  author: truth-blog
+  description: "探寻真相"
   ShowReadingTime: true
   ShowPostNavLinks: true
   ShowCodeCopyButtons: true
@@ -20,7 +19,7 @@ languages:
     weight: 1
     languageName: 简体中文
     contentDir: content/zh/article
-    title: 我的博客
+    title: 探寻真相
     
     # 简体中文菜单
     menu:
@@ -40,7 +39,7 @@ languages:
     weight: 2
     languageName: 繁體中文
     contentDir: content/zh-hk/article
-    title: 我的部落格
+    title: 探尋真相
     
     # 繁体中文菜单
     menu:
@@ -60,7 +59,7 @@ languages:
     weight: 3
     languageName: English
     contentDir: content/en/article
-    title: My Blog
+    title: Seeking the Truth
     
     # 英文菜单
     menu:
