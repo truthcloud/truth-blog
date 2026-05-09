@@ -18,8 +18,10 @@ languages:
   zh:
     weight: 1
     languageName: 简体中文
-    contentDir: content/zh/article
+    contentDir: zh
     title: 探寻真相
+    mainSections:
+    - article
     
     # 简体中文菜单
     menu:
@@ -28,7 +30,7 @@ languages:
           url: /
           weight: 1
         - name: 文章
-          url: /article/
+          url: /zh/article/
           weight: 2
         - name: 关于
           url: /about/
@@ -38,8 +40,10 @@ languages:
   zh-hk:
     weight: 2
     languageName: 繁體中文
-    contentDir: content/zh-hk/article
+    contentDir: zh-hk
     title: 探尋真相
+    mainSections:
+    - article
     
     # 繁体中文菜单
     menu:
@@ -48,7 +52,7 @@ languages:
           url: /
           weight: 1
         - name: 文章
-          url: /article/
+          url: /zh-hk/article/
           weight: 2
         - name: 關於
           url: /about/
@@ -58,8 +62,10 @@ languages:
   en:
     weight: 3
     languageName: English
-    contentDir: content/en/article
+    contentDir: en
     title: Seeking the Truth
+    mainSections:
+    - article
     
     # 英文菜单
     menu:
@@ -68,7 +74,7 @@ languages:
           url: /
           weight: 1
         - name: Article
-          url: /article/
+          url: /en/article/
           weight: 2
         - name: About
           url: /about/
