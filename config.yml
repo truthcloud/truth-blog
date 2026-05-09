@@ -33,7 +33,7 @@ languages:
           url: /zh/article/
           weight: 2
         - name: 关于
-          url: /about/
+          url: /zh/about/
           weight: 3
 
   # 繁体中文配置
@@ -55,7 +55,7 @@ languages:
           url: /zh-hk/article/
           weight: 2
         - name: 關於
-          url: /about/
+          url: /zh-hk/about/
           weight: 3
 
   # 英文配置
@@ -77,5 +77,5 @@ languages:
           url: /en/article/
           weight: 2
         - name: About
-          url: /about/
+          url: /en/about/
           weight: 3
